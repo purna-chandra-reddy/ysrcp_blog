@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">YSRCP PARTY SCHEMES</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Purna Chandra Reddy</span></h2>
+            <h3>I'm a member of YSRCP Party and here will show the schemes and manifasto full details at one place</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/myPic.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Purna Chandra Reddy</b>, Software engineer | Politician</h2>
+                <p>I honoured to be part of YSRCP Party and serving the people, and am excited at the potential opportunity to continue to serve the people. Now more than ever, with the additional challenges and stresses imposed by COVID, we serves a critical
+                    role in advocating on behalf of party. </p><br>
+                <p>I am currently working as a software engineer in PAYTM</p>
+                <div class="heading bottom">
+                    <a href="images/resume.docx" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Purna Chandra Reddy<br>
+                        <b>Age:</b> 25
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> pcreddy6081@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>YSRCP Services</h2>
+            <p>Services that provides to us</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fas fa-fan"></i>
+                <a href="https://www.ysrcongress.com/saadhakam" class="fas fa-fan">YSR-Schemes</a>
+                <p>The schemes that are currently implementing in Andhra Pradesh</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fas fa-fan"></i>
+                <a href="https://rajbhavanmp.in/ysr-navaratnalu-scheme/" class="fas fa-fan">1. ysr-navaratnalu-scheme</a>
+                <a href="https://pmmodiyojana.in/ap-government-schemes-list/" class="fas fa-fan">2. ap-government-schemes-list</a>
+                <a href="https://krishna.ap.gov.in/scheme/navaratnalu/" class="fas fa-fan">3. navaratnalu</a>
+                <a href="https://sarkariyojana.com/ap-ysr-government-schemes-list/" class="fas fa-fan">4. ap-ysr-government-schemes-list</a>
+                <p>Info || Links to apply for the schmes</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-diamond"></i>
+                <a href="https://www.ysrcongress.com/navarathnalu" class="fa fa-diamond">Navratnas</a>
+                <p>The extension of schemes along with YSR-Schemes</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-mortar-board"></i>
+                <a href="images/ysrcp_manifesto.pdf" class="btn round">Download Manifesto</a>
+                <h3>YSRCP Manifesto-2019</h3>
+                <p>YSRCP Manifesto 2019 in PDF download link is available, download PDF of YSRCP Manifesto 2019 in Telugu using this direct link.. YSRCP Manifesto 2019 PDF Telugu</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-phone-square"></i>
+                <a href="https://play.google.com/store/apps/details?id=com.likhatech.disha&hl=en_IN&gl=US" class="fa fa-phone-square">1. Android: Disha SOS</a>
+                <a href="https://apps.apple.com/in/app/disha-sos/id1505935127" class="fa fa-phone-square">2. Apple: Disha SOS</a>
+                <h3>Applications</h3>
+                <p>Apps that are useful for people </p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-play"></i>
+                <a href="https://play.google.com/store/apps/details?id=com.mobincube.YSRCP.Music" class="fa fa-play">1. Android: YSRCP Music</a>
+                <a href="https://play.google.com/store/search?q=ys%20jagan&c=apps" class="fa fa-play">2. Android: YS Jagan Mohan Reddyg</a>
+                <h3>YSRCP Gallery</h3>
+                <p>Here the links for YSRCP Gallery </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Software Works</h2>
+            <p>Showcasing some of my <b>companies and works</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://www.linkedin.com/company/blockcoins/" target="_blank">
+                    <img src="images/blockcoins.jpeg" alt="">
+                    <p>Crypto Services</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://paytm.com/" target="_blank">
+                    <img src="images/Paytm_logo.jpeg" alt="">
+                    <p>Working as a Software Engineer</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Prime Minister Narendra Modi has a fatherly affection towards Andhra Pradesh CM YS Jagan </p>
+                <h3>Nirmala Sitharaman<br>Finance Minister of India</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Koramangala, Bangalore<br>Karnataka<br>India, 560029</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>7871035502</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>pcreddy6081@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.instagram.com/pcr.insta_/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/purnachandrareddy14/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2022,
+            <a href="https://purna-chandra-reddy.github.io/blockcoins/profile.html">company</a>, Allrights reserved</p>
+    </footer>
+</body>
+
+</html>
